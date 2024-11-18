@@ -10,7 +10,7 @@ public class leapyearchecker {
 	int year = object.nextInt();
 	//if(yeae% 4==a&& year%100!=a)\\(year%400==0))
 	
-		if ((year % 4 == 0 && year%100!=0)||(year%400==0)){
+		if (year % 4 == 0 && year%100!=0){
 			
 			System.out.println(year+ "   It is leap year: "); 
 	
