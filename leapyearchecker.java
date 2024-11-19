@@ -3,22 +3,20 @@ import java.util.Scanner;
 
 public class leapyearchecker {
 	public static void main(String[]args) {
-	Scanner object =new Scanner(System.in);
+	Scanner obj =new Scanner(System.in);
 	
 	System.out.println("enter the year: ");
+	int year=obj.nextInt();
+	if ((year%4==0)&&(year %100!=0)){
+		System.out.println(" this leap year :");
+	}else {
+
 	
-	int year = object.nextInt();
-	//if(yeae% 4==a&& year%100!=a)\\(year%400==0))
+	System.out.println("this is not a leap year:");
+	}
 	
-		if (year % 4 == 0 && year%100!=0){
-			
-			System.out.println(year+ "   It is leap year: "); 
-	
-		}else { 
-	
-		System.out.println( year + "    It not a leap year:" );
 		
 	}
 	
   
-}}
+}
